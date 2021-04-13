@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Twitter-Tweet ui</title>
+		<link rel="stylesheet" href="tailwind.min.css">
+	</head>
+
+	<body class="h-full bg-blue-500 font-sans">
+		<div class="container mx-auto mt-16 flex justify-center items-center">
+			<div class="w-96 bg-white rounded-lg shadow-lg">
+				<div class="px-4 py-4">
+					<!-----------------------Tweet Profile-------------------------->
+					<div class="flex items-center mb-2">
+						<div class="h-9 w-9 mr-1.5 flex justify-center items-center rounded-full bg-gradient-to-r from-green-400 to-blue-500 border border-gray-100">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+							</svg>
+						</div>
+						<div class="flex-auto leading-3">
+							<div class="flex items-center">
+								<span class="mr-0.5 text-black text-xs font-bold">Tailwind Rebuild</span>
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+								</svg>
+							</div>
+							<span class="flex-1 text-xs text-gray-400">@maharshi</span>
+						</div>
+						<div style="font-size: 0.6rem;" class="px-2 py-1.5 mr-1.5 text-center text-white font-bold rounded-xl bg-blue-500">Following</div>
+						<div>
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+							</svg>
+						</div>
+					</div>
+					<!-----------------------Tweet Content-------------------------->
+					<div class="mb-2">
+						<div class="mb-1.5 text-base">
+							<span>Thank You <span class="font-semibold">@tailwindcss</span>
+								<span class="font-semibold">@adamwathan</span>
+							</span>
+							<br> Twitter Mockup Inspired from <span class="font-semibold">@designbolts</span>
+						</div>
+						<div class="mb-2">
+							<img class="rounded-lg border border-gray-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDtZBQqqgGjkII5yp-OwaYWCIT4gzRCeBbK_Ek33nw4P78IkmgVaP2O1AP49z1DZMyrI&usqp=CAU" alt="tailwind_text.png">
+						</div>
+						<div class="text-xs tracking-tight text-gray-400">12:01 AM - 13 Apr 2021</div>
+					</div>
+					<hr class="mb-2">
+					<div class="mb-2 flex items-center space-x-4">
+						<div class="text-gray-400 text-sm">
+							<span class="text-gray-700 text-sm font-bold">71.1K </span>Retweets &nbsp<span class="text-gray-700 font-bold mr-0.5">86.1K</span>Likes </div>
+						<div class="flex items-center space-x-1 ">
+							<div class="h-6 w-6 overflow-hidden border border-gray-300 rounded-full"><img src="https://pbs.twimg.com/profile_images/1362367807887974401/kuJ1OFT1_normal.jpg" alt=""> </div>
+							<div class="h-6 w-6 overflow-hidden border border-gray-300 rounded-full"><img src="https://pbs.twimg.com/profile_images/1012717264108318722/9lP-d2yM_normal.jpg" alt=""> </div>
+							<div class="h-6 w-6 overflow-hidden border border-gray-300 rounded-full"><img src="https://pbs.twimg.com/profile_images/1201195042972610561/mkQzzfMv_normal.jpg" alt=""> </div>
+							<div class="h-6 w-6 overflow-hidden border border-gray-300 rounded-full"><img src="https://pbs.twimg.com/profile_images/924268205006381056/99XXtEK4_normal.jpg" alt=""> </div>
+							<div class="h-6 w-6 overflow-hidden border border-gray-300 rounded-full"><img src="https://pbs.twimg.com/profile_images/885868801232961537/b1F6H4KC_normal.jpg" alt=""> </div>
+						</div>
+					</div>
+					<hr class="mb-2.5">
+					<div class="mb-3">
+						<div class="flex items-center ml-0.5 space-x-9">
+							<div class="flex items-center space-x-1">
+								<svg viewBox="0 0 24 24" class="fill-current h-4 w-4 text-gray-500">
+									<g>
+										<path d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828c0 .108.044.286.12.403.142.225.384.347.632.347.138 0 .277-.038.402-.118.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67c0-.414-.335-.75-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176z"></path>
+									</g>
+								</svg>
+								<span class="text-gray-600 text-xs font-semibold">1</span>
+							</div>
+							<div class="flex items-center space-x-1">
+								<svg class="fill-current h-4 w-4 text-gray-500" viewBox="0 0 24 24">
+									<g>
+										<path d="M23.77 15.67c-.292-.293-.767-.293-1.06 0l-2.22 2.22V7.65c0-2.068-1.683-3.75-3.75-3.75h-5.85c-.414 0-.75.336-.75.75s.336.75.75.75h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22c-.293-.293-.768-.293-1.06 0s-.294.768 0 1.06l3.5 3.5c.145.147.337.22.53.22s.383-.072.53-.22l3.5-3.5c.294-.292.294-.767 0-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22c.148.147.34.22.532.22s.384-.073.53-.22c.293-.293.293-.768 0-1.06l-3.5-3.5c-.293-.294-.768-.294-1.06 0l-3.5 3.5c-.294.292-.294.767 0 1.06s.767.293 1.06 0l2.22-2.22V16.7c0 2.068 1.683 3.75 3.75 3.75h5.85c.414 0 .75-.336.75-.75s-.337-.75-.75-.75z"></path>
+									</g>
+								</svg>
+								<span class="text-gray-600 text-xs font-semibold">10</span>
+							</div>
+							<div class="flex items-center space-x-1">
+								<svg class="fill-current h-4 w-4 text-gray-500" viewBox="0 0 24 24">
+									<g>
+										<path d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z"></path>
+									</g>
+								</svg>
+								<span class="text-gray-600 text-xs font-semibold">20</span>
+							</div>
+							<div class="flex items-center space-x-1">
+								<svg class="fill-current h-4 w-4 text-gray-500" viewBox="0 0 24 24">
+									<g>
+										<path d="M17.53 7.47l-5-5c-.293-.293-.768-.293-1.06 0l-5 5c-.294.293-.294.768 0 1.06s.767.294 1.06 0l3.72-3.72V15c0 .414.336.75.75.75s.75-.336.75-.75V4.81l3.72 3.72c.146.147.338.22.53.22s.384-.072.53-.22c.293-.293.293-.767 0-1.06z"></path>
+										<path d="M19.708 21.944H4.292C3.028 21.944 2 20.916 2 19.652V14c0-.414.336-.75.75-.75s.75.336.75.75v5.652c0 .437.355.792.792.792h15.416c.437 0 .792-.355.792-.792V14c0-.414.336-.75.75-.75s.75.336.75.75v5.652c0 1.264-1.028 2.292-2.292 2.292z"></path>
+									</g>
+								</svg>
+								<span class="text-gray-600 text-xs font-semibold">17</span>
+							</div>
+						</div>
+					</div>
+					<!-----------------------Tweet Reply-------------------------->
+					<div class="mt-6 flex items-center">
+						<div class="h-8 w-8 mr-1.5 flex justify-center items-center rounded-full bg-gradient-to-r from-green-400 to-blue-500 border border-gray-100">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+							</svg>
+						</div>
+						<div class="flex items-center space-x-1">
+							<input class="border border-gray-200 py-1 pl-2 w-72 outline-none text-sm" type="text" placeholder="Tweet your reply">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+								<path fill-rule="evenodd" d="M7.707 3.293a1 1 0 010 1.414L5.414 7H11a7 7 0 017 7v2a1 1 0 11-2 0v-2a5 5 0 00-5-5H5.414l2.293 2.293a1 1 0 11-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
